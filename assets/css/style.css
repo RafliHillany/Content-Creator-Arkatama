@@ -284,3 +284,32 @@ body {
   display: inline-block;
   margin: auto 2%;
 }
+
+/* amd academy */
+
+#amd-academy{
+  margin-top: 16%;
+  width: 100%;
+  height: 380px;
+  background-image: url("../img/images/btm-testimonial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#amd-academy h1{
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  margin: 8% 0;
+}
+
+#amd-academy span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FFCA1D;
+  z-index: 1;
+}
