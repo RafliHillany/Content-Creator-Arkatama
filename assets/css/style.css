@@ -108,7 +108,7 @@ body {
 /* jumbotron */
 .jumbotron {
   width: 100%;
-  height: 700px;
+  height: 715px;
   border-radius: 0 0 0 170px;
   background: linear-gradient(
       180deg,
@@ -154,8 +154,39 @@ body {
   padding: 15px 25px;
 }
 
+.register img{
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  width: 57px;
+  height: 57px;
+}
+
+.register a{
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 1.6%;
+  line-height: 36px;
+  margin: auto 0;
+  padding: 0 5%;
+  font-weight: 600;
+}
+
+.rating{
+  margin-top: 8.3%;
+}
+
+.rating i{
+  font-size: 20px;
+  color: #FFA110;
+  margin: 0 2px;
+}
+
 .photo-hero{
-  top: 50%;
+  top: 51%;
   right: 0;
   position: absolute;
 }
@@ -164,5 +195,7 @@ body {
   right: 0;
   position: absolute;
   width: 100%;
-  height: 621px;
+  height: 630px;
 }
+
+
