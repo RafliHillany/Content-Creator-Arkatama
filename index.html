@@ -1,150 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
 
-    <!-- my css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-    <!-- font awesome -->
-    <!-- <script src="https://kit.fontawesome.com/40b65501ed.js" crossorigin="anonymous"></script> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-  </head>
+  <!-- my css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-  <body>
-    <!-- Header -->
-    <section id="Header">
-      <div class="header">
-        <div class="container">
-          <div class="logo">
-            <a class="logo-brand" href="#">
-              <img src="./assets/img/images/logo-amd-top.png" alt="logo-amd">
-            </a>
-          </div>
-          <div class="menu-header">
-            <p>
-              <img
-                src="assets/img/icons/fluent_call-connecting-20-regular.png"
-                alt="telepon"
-                class="m-header"
-              />Hotline: 0812 3431 1135
-            </p>
-            <p>
-              <img
-                src="assets/img/icons/Frame 14060.png"
-                alt="email"
-                class="m-header"
-              />official@amdacademy.id
-            </p>
+  <!-- font awesome -->
+  <!-- <script src="https://kit.fontawesome.com/40b65501ed.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="Header">
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <a class="logo-brand" href="#">
+            <img src="./assets/img/images/logo-amd-top.png" alt="logo-amd">
+          </a>
+        </div>
+        <div class="menu-header">
+          <p>
+            <img src="assets/img/icons/fluent_call-connecting-20-regular.png" alt="telepon" class="m-header" />Hotline:
+            0812 3431 1135
+          </p>
+          <p>
+            <img src="assets/img/icons/Frame 14060.png" alt="email" class="m-header" />official@amdacademy.id
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navbar -->
+  <section id="Navbar">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Program</a>
+            <a class="nav-link" href="#">AMD for Corporate</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Blog</a>
+            <button type="button" class="btn btn-outline-light">Login</button>
+            <button class="btn btn-primary" type="submit">Daftar</button>
           </div>
         </div>
       </div>
-    </section>
+    </nav>
+  </section>
 
-    <!-- Navbar -->
-    <section id="Navbar">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#"> </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="#">Home</a>
-              <a class="nav-link" href="#">Program</a>
-              <a class="nav-link" href="#">AMD for Corporate</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Blog</a>
-              <button type="button" class="btn btn-outline-light">Login</button>
-              <button class="btn btn-primary" type="submit">Daftar</button>
+  <!-- Jumbotron -->
+  <section id="jumbotron">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h1 class="text-lg-jumbo">
+              Pelatihan & Sertifikasi Content Creator
+            </h1>
+            <p class="text-sm-jumbo">
+              Ayo tingkatkan penjualan produk Anda dengan <br> mengikuti pelatihan
+              content creator di <br>
+              <span style="font-weight: bold">AMD Academy</span> sekarang!
+            </p>
+
+            <div class="register">
+              <div class="row">
+                <div class="col-lg-6">
+                  <button class="btn btn-primary btn-jumbo" type="submit">
+                    Daftar Sekarang
+                  </button>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-start">
+                  <img src="./assets/img/icons/Union.png" alt="union">
+                  <a href="">Watch Video</a>
+                </div>
+              </div>
             </div>
+
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+
           </div>
-        </div>
-      </nav>
-    </section>
-
-    <!-- Jumbotron -->
-    <section id="jumbotron">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <h1 class="text-lg-jumbo">
-                Pelatihan & Sertifikasi Content Creator
-              </h1>
-              <p class="text-sm-jumbo">
-                Ayo tingkatkan penjualan produk Anda dengan <br> mengikuti pelatihan
-                content creator di <br>
-                <span style="font-weight: bold">AMD Academy</span> sekarang!
-              </p>
-              <button class="btn btn-primary btn-jumbo" type="submit">
-                Daftar Sekarang
-              </button>
-            </div>
-            <div class="col-lg-5 photo-hero">
-              <img src="./assets/img/images/right-hero.png" alt="main-content">
-            </div>
+          <div class="col-lg-5 photo-hero">
+            <img src="./assets/img/images/right-hero.png" alt="main-content">
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 50,
-          modifier: 10,
-          slideShadows: false,
-        },
-        navigation: {
-          nextEl: ".btn-next",
-          prevEl: ".btn-prev",
-        },
-      });
-    </script>
-  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 50,
+        modifier: 10,
+        slideShadows: false,
+      },
+      navigation: {
+        nextEl: ".btn-next",
+        prevEl: ".btn-prev",
+      },
+    });
+  </script>
+</body>
+
 </html>
