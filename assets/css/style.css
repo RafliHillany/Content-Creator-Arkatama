@@ -317,7 +317,6 @@ body {
   margin: -100px 0px 86px 0px;
 }
 
-
 /* Study */
 
 #study h3 {
@@ -327,7 +326,7 @@ body {
   color: #0f345e;
 }
 
-#study span{
+#study span {
   height: 30px;
   width: 30px;
   margin: 0 0 0 -1%;
@@ -344,18 +343,18 @@ body {
   font-family: "Poppins";
 }
 
-#study .card-section{
+#study .card-section {
   background-image: url("../img/images/bg-study.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 58rem;
 }
 
-#study .card-one{
+#study .card-one {
   margin: 8% 0 10% 0;
 }
 
-#study .card{
+#study .card {
   width: 64%;
   height: 100%;
   margin: 6% auto;
@@ -364,11 +363,11 @@ body {
   border: none;
 }
 
-#study .card .card-image{
+#study .card .card-image {
   padding: 6% 0 0 4%;
 }
 
-#study .card img{
+#study .card img {
   width: 58px;
   height: 41px;
 }
@@ -392,4 +391,14 @@ body {
   font-weight: bold;
   color: #0f345e;
   margin-top: 10%;
+}
+
+#testimonial span {
+  height: 30px;
+  width: 30px;
+  margin: 0 0 0 -1%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffca1d;
+  z-index: -1;
 }
