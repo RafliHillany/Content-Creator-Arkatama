@@ -183,7 +183,7 @@ body {
 .rating i {
   font-size: 20px;
   color: #ffa110;
-  margin: 0 2px;
+  margin: auto 2px;
 }
 
 .photo-hero {
@@ -199,30 +199,48 @@ body {
   height: 630px;
 }
 
-.rating a {
+.rating p {
+  display: inline-block;
   font-size: 20px;
   color: #ffffff;
-  margin: 0 2px;
   text-decoration: none;
+  margin: 0 10px;
 }
 
-.rating span {
-  font-size: 27px;
-  font-weight: bold;
+.rating .value-rating {
+  display: inline-block;
+  font-size: 28px;
   color: #ffffff;
-  margin: 0 2px;
   text-decoration: none;
+  font-weight: bold;
 }
+
+/* Brand */
 
 #brand {
-  margin-top: 15%;
+  margin-top: 20%;
+}
+
+#brand hr{
+  color: #FFCA1D;
+  width: 7%;
+  border: 6px solid #FFCA1D;
+  border-radius: 10px;
+  opacity: 1;
 }
 
 #brand h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   color: #0f345e;
 }
+
+#brand img{
+  margin: auto 0;
+}
+
+
+/* Content Creator */
 
 #content-creator {
   margin-top: 10%;
@@ -232,12 +250,66 @@ body {
   margin: auto 0;
 }
 
+#content-creator .creator span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FFCA1D;
+  z-index: -1;
+  margin: auto;
+}
+
 #content-creator h3 {
-  font-size: 30px;
+  font-size: 34px;
+  margin: 0 0 5% 2%;
   font-weight: bold;
   color: #0f345e;
 }
 
+.creator > p{
+  font-size: 20px;
+}
+
 #content-creator .check-creator {
   margin: 25px 0px;
+}
+
+#content-creator .check-creator img{
+  display: inline-block;
+  margin: 1% 0;
+}
+
+#content-creator .check-creator p{
+  display: inline-block;
+  margin: auto 2%;
+}
+
+/* amd academy */
+
+#amd-academy{
+  margin-top: 16%;
+  width: 100%;
+  height: 380px;
+  background-image: url("../img/images/btm-testimonial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#amd-academy h1{
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  margin: 8% 0;
+}
+
+#amd-academy span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FFCA1D;
+  z-index: 1;
 }
