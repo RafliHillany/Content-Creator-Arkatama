@@ -408,6 +408,8 @@ body {
 }
 
 #register {
+  position: relative;
+  z-index: -2;
   background-color: #0f345e;
 }
 
@@ -441,4 +443,28 @@ body {
   font-weight: bold;
   color: #ffffff;
   margin-top: 10%;
+}
+
+#faq h3 {
+  font-size: 34px;
+  margin: 5% 0 2% 5%;
+  font-weight: bold;
+  color: #0f345e;
+}
+
+#faq span {
+  height: 30px;
+  width: 30px;
+  margin: 8% 0 0 30%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffca1d;
+  z-index: -1;
+}
+
+#contact h3 {
+  font-size: 34px;
+  margin: 5% 0 2% 5%;
+  font-weight: bold;
+  color: #0f345e;
 }
