@@ -341,3 +341,11 @@ body {
   color: #434343;
   font-family: "Poppins";
 }
+
+#testimonial h3 {
+  font-size: 34px;
+  margin: 0 0 5% 2%;
+  font-weight: bold;
+  color: #0f345e;
+  margin-top: 10%;
+}
