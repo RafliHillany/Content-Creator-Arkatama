@@ -317,78 +317,34 @@ body {
   margin: -100px 0px 86px 0px;
 }
 
-
-/* Study */
-
 #study h3 {
   font-size: 34px;
-  margin: 0 0 5% 0;
+  margin: 0 0 5% 2%;
   font-weight: bold;
   color: #0f345e;
 }
 
-#study span{
-  height: 30px;
-  width: 30px;
-  margin: 0 0 0 -1%;
-  border-radius: 50%;
-  position: absolute;
-  background-color: #ffca1d;
-  z-index: -1;
-}
-
-#study > p {
+#study p {
   font-size: 16px;
-  margin: 0 0 5% 0;
+  margin: 0 0 5% 2%;
   color: #434343;
   font-family: "Poppins";
 }
 
-#study .card-section{
-  background-image: url("../img/images/bg-study.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 58rem;
-}
-
-#study .card-one{
-  margin: 8% 0 10% 0;
-}
-
-#study .card{
-  width: 64%;
-  height: 100%;
-  margin: 6% auto;
-  border-radius: 8px 64px 8px 8px;
-  box-shadow: 6px 10px 12px 4px rgba(84, 83, 83, 0.09);
-  border: none;
-}
-
-#study .card .card-image{
-  padding: 6% 0 0 4%;
-}
-
-#study .card img{
-  width: 58px;
-  height: 41px;
-}
-
-#study .card h5 {
+#study custom-card h5 {
   font-weight: bold;
-  margin: 8% 0;
 }
 
-#study .card p {
+#study custom-card p {
   font-size: 16px;
+  margin: 0 0 5% 2%;
   color: #434343;
   font-family: "Poppins";
 }
-
-/* Testimonial */
 
 #testimonial h3 {
   font-size: 34px;
-  margin: 0 0 5% 0;
+  margin: 0 0 5% 2%;
   font-weight: bold;
   color: #0f345e;
   margin-top: 10%;
