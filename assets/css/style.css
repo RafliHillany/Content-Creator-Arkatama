@@ -396,9 +396,49 @@ body {
 #testimonial span {
   height: 30px;
   width: 30px;
-  margin: 0 0 0 -1%;
+  margin: 2.5% 0 0 2%;
   border-radius: 50%;
   position: absolute;
   background-color: #ffca1d;
   z-index: -1;
+}
+
+#bg {
+  margin-top: 64px;
+}
+
+#register {
+  background-color: #0f345e;
+}
+
+#register h3 {
+  font-size: 34px;
+  margin: 0 0 5% 0;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10%;
+}
+
+#register span {
+  height: 30px;
+  width: 30px;
+  margin: 8% 0 0 30%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffca1d;
+  z-index: -1;
+}
+
+#register p {
+  margin: 0 0 5% 0;
+  color: #db9931;
+  margin-top: 10%;
+}
+
+#register h6 {
+  font-size: 24px;
+  margin: 0 0 5% 0;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10%;
 }
