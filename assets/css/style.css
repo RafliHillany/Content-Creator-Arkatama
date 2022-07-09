@@ -592,8 +592,31 @@ body {
 
 /* Video */
 #video {
+  margin-top: 5%;
+  width: 100%;
+}
+
+#gallery {
   margin-top: 10%;
   width: 100%;
+}
+
+#gallery h3 {
+  font-size: 34px;
+  margin: 5%;
+  font-weight: bold;
+  color: #0f345e;
+  margin-top: 10%;
+}
+
+#gallery span {
+  height: 30px;
+  width: 30px;
+  margin: 6% 0 0 3%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffca1d;
+  z-index: -1;
 }
 
 /* faq */
