@@ -405,10 +405,12 @@ body {
 
 #bg {
   margin-top: 64px;
+  height: 250px;
 }
 
 #register {
   position: relative;
+  height: 700px;
   z-index: -2;
   background-color: #0f345e;
 }
@@ -445,6 +447,127 @@ body {
   margin-top: 10%;
 }
 
+/* pricing */
+.sec-reg {
+  background-color: #0f345e;
+  padding-top: 76px;
+  padding-bottom: 236px;
+}
+
+.title-reg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  text-align: center;
+
+  color: #db9931;
+
+  margin-bottom: 20px;
+}
+
+.detail-reg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sec-detail-reg {
+  margin-top: 100px;
+}
+
+.card-price {
+  padding: 55px 70px 87px 70px !important;
+  background: #ffffff;
+  /* Card2 */
+
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.type-pricing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  color: #0f345e;
+}
+
+.price-pricing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+  text-align: center;
+
+  color: #434343;
+  margin-top: 32px;
+}
+
+.border-price {
+  border: 3px solid rgba(0, 0, 0, 0.15);
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.benefit-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+.detail-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  color: #000000;
+}
+
+.sec-card-pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 100px;
+  margin-top: -120px;
+  margin-top: -20%;
+}
+
+.text-user-pricing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  color: rgba(67, 67, 67, 0.6);
+}
+
+/* faq */
 #faq h3 {
   font-size: 34px;
   margin: 5%;
