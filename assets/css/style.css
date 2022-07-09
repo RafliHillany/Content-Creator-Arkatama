@@ -590,6 +590,12 @@ body {
   z-index: -1;
 }
 
+/* Video */
+#video {
+  margin-top: 10%;
+  width: 100%;
+}
+
 /* faq */
 #faq h3 {
   font-size: 34px;
