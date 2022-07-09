@@ -447,7 +447,7 @@ body {
 
 #faq h3 {
   font-size: 34px;
-  margin: 5% 0 2% 5%;
+  margin: 5%;
   font-weight: bold;
   color: #0f345e;
 }
@@ -462,9 +462,111 @@ body {
   z-index: -1;
 }
 
-#contact h3 {
+/* konsultasi */
+.sec-konsultasi {
+  margin-top: 32px;
+}
+
+#konsultasi h3 {
   font-size: 34px;
-  margin: 5% 0 2% 5%;
   font-weight: bold;
   color: #0f345e;
+}
+
+.content-konsultasi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc-konsultasi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 36px */
+
+  color: #434343;
+
+  opacity: 0.6;
+  margin: 32px 0 48px 0;
+}
+
+/* footer */
+.sec-footer {
+  background-color: #0f345e;
+  padding: 80px 0 44px 0 !important;
+}
+
+.title-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.border-footer {
+  border-top: 1px solid #ffffff;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.desc-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.sec-link-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+}
+
+.link-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title-link-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 5%;
 }
